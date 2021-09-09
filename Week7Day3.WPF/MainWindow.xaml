@@ -1,0 +1,39 @@
+﻿<Window x:Class="Week7Day3.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week7Day3.WPF"
+        mc:Ignorable="d"
+        Title="Equation Solver" Height="238" Width="497">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblEquazione" Grid.Row="0" Content="Equazione:" FontWeight="Bold" FontSize="11.5" VerticalAlignment="Center"></Label>
+        <TextBox x:Name="valueA" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Width="48"/>
+        <Label x:Name="lblgrado2" Grid.Row="0" Grid.Column="2" Content="x^2 +" FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        <TextBox x:Name="valueB" Grid.Column="3" Grid.Row="0" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Width="48"/>
+        <Label x:Name="lblgrado1" Grid.Row="0" Grid.Column="4" Content="x +" FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        <TextBox x:Name="valueC" Grid.Column="5" Grid.Row="0" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Width="48"/>
+        <Label x:Name="lbluguale0" Grid.Row="0" Grid.Column="6" Content="= 0" FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        <Button x:Name="btnRisolvi" Grid.Row="1" Grid.ColumnSpan="7" Content="Risolvi" VerticalAlignment="Center" HorizontalAlignment="Center" Height="39" Width="174" FontWeight="Bold" FontSize="25" Click="btnRisolvi_Click" Background="#FF3EA05D"/>
+        <TextBox x:Name="risultato" Grid.Row="2" Grid.ColumnSpan="7" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Width="388"/>
+        <Menu x:Name="menu" Grid.Row="0" Grid.ColumnSpan="7" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <MenuItem x:Name="file" Header="File">
+                <MenuItem x:Name="exit" Header="Exit" ToolTip="Clicca per uscire dall'applicazione"></MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

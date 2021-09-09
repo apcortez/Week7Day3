@@ -22,7 +22,7 @@ namespace Week7Day3
         
         
         }
-
+        [Fact]
         public void Test2()
         {
             //Arrange: predisposizione del test
@@ -38,7 +38,7 @@ namespace Week7Day3
 
 
         }
-
+        [Fact]
         public void Test3()
         {
             //Arrange: predisposizione del test
@@ -54,7 +54,7 @@ namespace Week7Day3
 
 
         }
-
+        [Fact]
         public void Test4()
         {
             //Arrange: predisposizione del test
