@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7Day3", "Week7Day3\Week7Day3.csproj", "{0DF40F31-CDAF-4E13-A538-C02E8456BB05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day3", "Week7Day3\Week7Day3.csproj", "{0DF40F31-CDAF-4E13-A538-C02E8456BB05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7Day3.Core", "Week7Day3.Core\Week7Day3.Core.csproj", "{C325BFCA-493E-421C-9903-1B61B130C66A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week7Day3.Core", "Week7Day3.Core\Week7Day3.Core.csproj", "{C325BFCA-493E-421C-9903-1B61B130C66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week7Day3.WinsForm", "Week7Day3.WinsForm\Week7Day3.WinsForm.csproj", "{A840B2CE-0C01-4147-85D4-6EA9AB5A4700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C325BFCA-493E-421C-9903-1B61B130C66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C325BFCA-493E-421C-9903-1B61B130C66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C325BFCA-493E-421C-9903-1B61B130C66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A840B2CE-0C01-4147-85D4-6EA9AB5A4700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A840B2CE-0C01-4147-85D4-6EA9AB5A4700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A840B2CE-0C01-4147-85D4-6EA9AB5A4700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A840B2CE-0C01-4147-85D4-6EA9AB5A4700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
